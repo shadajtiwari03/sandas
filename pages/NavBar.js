@@ -17,7 +17,7 @@ const NavBar = () => {
                     </li>
 
                     <li className="nav-item px-3">
-                        <Link href="/skills" >
+                        <Link href="/skills">
                             <a className="nav-link">Skills</a>
                         </Link>
                     </li>

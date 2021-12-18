@@ -16,12 +16,17 @@ const Home = () => {
             <div className="col-md-6">  
               <br /><br />
               <p id="LandingPageHeadLine">Hey I'm Shadaj Tiwari, <br /> a <span id="FSWD"><strong> Full-Stack Web Developer </strong></span><br /> who loves to code and make music.</p>
-                          <Link href="/about" >
-                            <a>
-                              <button id="know-more-btn"><strong>Know more &nbsp; <i className="far fa-hand-point-right"></i></strong></button>
-                            </a>
-                        </Link>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a><button id="get-in-touch-btn"><strong>Get in touch &nbsp;<i className="fal fa-phone"></i></strong></button></a>
+              <Link href="/about" >
+                <a>
+                  <button id="know-more-btn"><strong>Know more &nbsp; <i className="far fa-hand-point-right"></i></strong></button>
+                </a>
+              </Link>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <Link href="/contactme">
+                <a>
+                  <button id="get-in-touch-btn"><strong>Get in touch &nbsp;<i className="fal fa-phone"></i></strong></button>
+                </a>
+              </Link>
             </div>
             
             <div className="text-center col-md-6 p-3">
