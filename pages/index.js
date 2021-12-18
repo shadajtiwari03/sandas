@@ -15,7 +15,7 @@ const Home = () => {
           <div className="row">
             <div className="col-md-6">  
               <br /><br />
-              <p id="LandingPageHeadLine">Hey I'm Shadaj Tiwari, <br /> a <span id="FSWD"><strong> Full-Stack Web Developer </strong></span><br /> who loves to code and make music.</p>
+              <p id="LandingPageHeadLine">I'm Shadaj Tiwari, <br /> a <span id="FSWD"><strong> Full-Stack Web Developer </strong></span><br /> who loves to code and make music.</p>
               <Link href="/about" >
                 <a>
                   <button id="know-more-btn"><strong>Know more &nbsp; <i className="far fa-hand-point-right"></i></strong></button>
