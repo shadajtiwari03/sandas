@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+#main{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #101A23;
+  color: white;
+}
+
+#LandingPage {
+  height: auto;
+}
+
+#LandingPageHeadLine {
+  font-size: 27px;
+}
+
+#FSWD {
+  color: #39A2DB;
+}
+
+#know-more-btn{
+	text-align: center;
+	border: 3px solid #39A2DB;
+	background: none;
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	transition: 0.5s;
+}
+
+#know-more-btn:hover{
+	color: white;
+	background: #247aa8;
+	border: 3px solid #247aa8;
+	transition: 0.5s;
+}
+
+#get-in-touch-btn{
+	text-align: center;
+	border: 3px solid #E8F0F2;
+	background: #E8F0F2;
+	padding: 10px;
+	font-size: 15px;
+	color: #101A23;
+	transition: 0.5s;
+}
+
+#get-in-touch-btn:hover{
+	color: white;
+	background: #101A23;
+	border: 3px solid white;
+	transition: 0.5s;
+}
+
+#AboutHeading {
+  color: #39A2DB;
+}
+
+#AboutContent {
+line-height-step: 1;
+}
+
+#ResumeLink {
+  text-decoration: none;
+  color: white;
+}
+
+#mainimage {
+	height: auto;
+	width: auto;
+}
+
+#more-about-me-btn{
+	text-align: center;
+	border: 3px solid #39A2DB;
+	background: none;
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	transition: 0.5s;
+}
+
+#more-about-me-btn:hover{
+	color: white;
+	background: none;
+	border: 3px solid white;
+	transition: 0.5s;
+}
+
+#counterlines {
+	font-size: 20px;
+  	color: white;
+}
+
+#counternumber {
+  font-size: 40px;
+}
+
+#countersign {
+  font-size: 40px;
+}
+
+#ContactLinks {
+	text-decoration: none;
+}
+
+#FooterContactLink {
+	text-decoration: none;
+	color: rgb(167, 197, 204);
+}
+
+#footerlinks {
+	text-decoration: none;
+	color: white;
+}
+
+/* #39A2DB is Blue         #101A23 is Black */  
