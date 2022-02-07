@@ -26,6 +26,7 @@
 	font-size: 15px;
 	color: white;
 	transition: 0.5s;
+	font-weight: bold;
 }
 
 #know-more-btn:hover{
@@ -33,6 +34,8 @@
 	background: #247aa8;
 	border: 3px solid #247aa8;
 	transition: 0.5s;
+	box-shadow: 0 0 5px #85b5cf, 0 0 0px #85b5cf, 0 0 50px #85b5cf, 0 0 200px #85b5cf; 
+	font-weight: bold;
 }
 
 #get-in-touch-btn{
@@ -43,6 +46,7 @@
 	font-size: 15px;
 	color: #101A23;
 	transition: 0.5s;
+	font-weight: bold;
 }
 
 #get-in-touch-btn:hover{
@@ -50,6 +54,7 @@
 	background: #101A23;
 	border: 3px solid white;
 	transition: 0.5s;
+	font-weight: bold;
 }
 
 #AboutHeading {
@@ -85,6 +90,7 @@ line-height-step: 1;
 	background: none;
 	border: 3px solid white;
 	transition: 0.5s;
+	box-shadow: 0 0 5px #85b5cf, 0 0 0px #85b5cf, 0 0 50px #85b5cf, 0 0 200px #85b5cf; 
 }
 
 #counterlines {
@@ -115,3 +121,91 @@ line-height-step: 1;
 }
 
 /* #39A2DB is Blue         #101A23 is Black */  
+
+/* Scroll Bar */
+
+::-webkit-scrollbar
+{
+	width: 5px;
+	background: #101A23;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background: #2d86b6;
+	border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+	background: #4c768d;
+}
+
+.all-a{
+	text-decoration: none;
+	color: white;
+}
+
+.all-a:hover {
+	text-decoration: none;
+color: white;
+}
+
+#nav-link{
+	font-size: 23px;
+}
+
+/* The side navigation menu */
+.sidenav {
+	height: 100%; /* 100% Full-height */
+	width: 0; /* 0 width - change this with JavaScript */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	right: 0;
+	background: #0b1218; /* Black*/
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px; /* Place content 60px from the top */
+	transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+	color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+	transition: margin-left .5s;
+	padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+	.sidenav {padding-top: 25px;}
+	.sidenav a {font-size: 18px;}
+  }
+  
+#OpenNav {
+    font-size: 20px;
+}
+

@@ -1,6 +1,8 @@
 import NavBar from '../pages/NavBar'
 import MyPic from "../styles/MyPic.png"
 import Image from 'next/image';
+import Footer from '../pages/Footer'
+
 // TO Run: npm run dev 
 
 const about = () => {
@@ -35,6 +37,7 @@ const about = () => {
 
                 <p>I am currently doing my Bachelor's in Electronics and Communication Engineering. I always wanted to understand the working of Gadgets and New Technologies. Communication is one of my interest and I am looking forward to do something in that field.</p>
             </section>
+            <Footer />
         </div>
 
      );

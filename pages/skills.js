@@ -1,6 +1,7 @@
-import NavBar from '../pages/NavBar'
+import NavBar from '../pages/NavBar';
+import Footer from '../pages/Footer'
 
-const about = () => {
+const skills = () => {
     return ( 
         <div id="main">
             <title>My Skills</title>
@@ -85,6 +86,7 @@ const about = () => {
             </div>
             <br/><br/><br/><br/>
             </section>
+      <Footer />
         </div>
 
      );
@@ -92,4 +94,4 @@ const about = () => {
 
 
 
-export default about;
+export default skills;
